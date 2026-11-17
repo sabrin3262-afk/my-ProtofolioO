@@ -1,0 +1,285 @@
+
+
+
+
+
+body{
+    margin: 0%;
+   background-color: #0b1220;
+   color: #e5e7eb;
+   font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+}
+nav{
+    margin: 0%;
+    padding-top: 1%;
+border-bottom: 1px solid #2a2f3a;
+text-align: center;
+}
+.hero{
+    
+}
+.nu{
+    display: flex;
+    align-items: center;
+list-style: none;
+margin: 0%;
+}
+.logo{
+   margin-right: auto;
+font-size: 22px;
+font-weight: bold;
+color: #38BDF8;
+}
+nav  li{
+
+    display: inline;
+   margin: 3%;
+padding: 6px;
+
+
+}
+nav  li a{
+
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a:hover{
+color: #38BDF8;
+background-color: #1E3A5F;
+padding: 8px;
+border-radius: 25px;
+
+}
+.face1{
+    display: flex;
+gap: 50px;
+}
+.fc11{
+ padding: 15px;
+ padding-left: 45px;
+ margin: 15px;
+ line-height: 23px;
+ 
+}
+ .cl{
+
+    color: #38BDF8;
+ }
+
+.fc12{
+ padding: 45px;
+margin-left: 30%;
+
+}
+.bt{
+    background-color: #1E3A5F;
+ 
+color: rgb(244, 247, 250);
+padding: 10px;
+border-radius: 10px;
+margin-right: 15px;
+margin-top: 30px;
+}
+.bt:hover{
+    background-color:  #3589ad;
+    box-shadow:  0 0 10px #3589ad;
+}
+
+.im{
+border-radius: 20%;
+width: 320px;
+height: 430px;
+border: 5px solid  #1E3A5F ;
+box-shadow:  0 0 10px #38BDF8;
+
+}
+/*aboutka bilawanayo*/
+.abv{
+    text-align: center;
+   
+}
+.abv span{
+     border-bottom: 2px solid #3589ad;
+
+}
+.all{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 50px;
+ gap: 50px;
+}
+.ai img{
+    max-width: 250px;
+    border-radius: 20px;
+    width: 100%;
+
+}
+.p{
+    width: 300px;
+}
+.abou{
+    width: 500px;
+}
+.abou p{
+    line-height: 150%;
+}
+
+.cards{
+    display: flex;
+    border-radius: 25px;
+  justify-content: center;
+}
+.card{
+   
+      background-color:  #49859e;
+    box-shadow:  0 0 10px #3b6d82;
+   padding: 30px;
+   margin: 2px;
+    width: 300px;
+    text-align: center;
+    border-radius: 23px;
+}
+     
+
+/* skills */
+
+.hskill{
+    text-align: center;
+   
+}
+.scards{
+    display: flex;
+    justify-content: space-between;
+   margin: 30px;
+
+}
+.sklcard{
+    border-radius: 8px;
+    border: 1px solid rgb(54, 125, 151);
+    padding: 30px;
+    height: 70%;
+    box-shadow: 0 0 10px  rgb(54, 125, 151);;
+}
+.teck{
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 300px;
+     border-bottom: 3px solid rgb(57, 113, 153);
+}
+.teck i{
+color: #e1eafd;
+/* hda rapto in ad icon weneso isticmal font size*/
+
+font-size: 40px;
+
+}
+
+.sinfo{
+     justify-content: space-between;
+     margin-top: 10%;
+     gap: 90px;
+}
+.sinfo i{
+   color: rgb(249, 152, 6);
+  
+}
+.progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #263548;
+    border-radius: 10px;
+}
+.progress{
+    height: 100%;
+    background-color: #38bdf8;
+    border-radius: 10px;
+}
+.html{
+    width: 50%;
+}
+.css{
+    width: 40%;
+}
+.jvs{
+   width:  20% ;
+}
+
+.lis-skll li::marker{
+color: #38bdf8;
+}
+.lis-skll{
+    line-height: 43px;
+}
+    .german{
+        width: 45%;
+    }
+    .english{
+        width: 50%;
+    }
+    .somali{
+        width: 100%;
+    }
+
+  /* Projectiga inta kabilawana*/
+.project{
+  text-align: center;
+    margin: auto;
+}
+.protitle{
+    width: 500px;
+    margin: auto;
+}
+.procards{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   justify-content: center;
+
+
+}
+.pcard{
+   width: 240px;
+    border: 1px solid rgb(60, 89, 136);
+    height: 400px;
+    line-height: 23px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(47, 131, 146);
+
+}
+.pg{
+    position: relative;
+    top: 46%;
+    bottom: 32px;
+}
+
+.pimg img{
+    width: 240px;
+    height: 240px;
+}
+.pi{
+   position:relative;
+   top: 72px;
+    font-size: 62px;
+    
+}
+
+
+
+footer{
+text-align: center;
+
+bottom: 0%;
+left: 46%;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+footer a{
+    margin-right: 14px;
+    color: aliceblue;
+   
+}
